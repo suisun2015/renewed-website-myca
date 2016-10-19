@@ -1,2 +1,18 @@
 # renewed-website-myca
-MyCA Associates Website
+MyCAssociates Website
+
++ [Site URL](http://www.myca.net.au)
+
+![MyCA snapshot](https://raw.githubusercontent.com/suisun2015/SHOWxl---WebRTC-LiveChat/master/snapshot.png)
+
+```
+Internationalized Full Responsive Website
+```
+
++ HTML5 + Bootstrap (Full Responsiveness)
++ MailChimp
++ Google Map
++ Social Sidebar
++ Multi-Language support - English & Chinese
+
+Thank you for your attention!

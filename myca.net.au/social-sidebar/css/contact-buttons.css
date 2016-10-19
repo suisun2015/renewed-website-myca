@@ -1,0 +1,114 @@
+ #contact-buttons-bar {
+  position: fixed;
+  top: 50px;
+  left: -40px;
+  width: 30px;
+}
+
+
+#contact-buttons-bar.slide-on-scroll {
+  position: absolute;
+}
+
+.contact-button-link  {
+  display: block;
+  width: 30px;
+  height: 32px;
+  padding: 0;
+  margin-bottom: 1px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 20px;
+  background: #8e8e93;
+  color: #fff;
+  position: relative;
+  left: 0;
+  opacity: 0.8;
+  
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  
+  -webkit-transition: all 250ms;
+     -moz-transition: all 250ms;
+          transition: all 250ms;
+}
+.contact-button-link:hover,
+.contact-button-link:focus,
+.contact-button-link:active {
+  color: #fff;
+  padding-left: 12px;
+  width: 42px;
+  opacity: 1;
+}
+.contact-button-link.chinese:hover,
+.contact-button-link.chinese:focus,
+.contact-button-link.chinese:active {
+   width: 50px;
+ }
+.contact-button-link.cb-hidden {
+  left: -40px;
+}
+.contact-button-link.chinese {
+  background: url(../img/btn_lang_chn.jpg) no-repeat;
+}
+.contact-button-link.facebook {
+  background: #3b5998;
+}
+.contact-button-link.wordpress {
+  background: #0DCFFF;
+}
+.contact-button-link.youtube {
+  background: red;
+}
+.contact-button-link.ato {
+  background: url(../img/btn_ato.jpg) no-repeat;
+}
+.contact-button-link.ato:hover,
+.contact-button-link.ato:focus,
+.contact-button-link.ato:active {
+  background: url(../img/btn_ato_active.jpg) no-repeat;
+}
+.contact-button-link.cpa {
+  background: url(../img/btn_cpa.jpg) no-repeat;
+}
+.contact-button-link.cpa:hover,
+.contact-button-link.cpa:focus,
+.contact-button-link.cpa:active {
+  background: url(../img/btn_cpa_active.jpg) no-repeat;
+}
+.contact-button-link.icca {
+  background: url(../img/btn_icca.jpg) no-repeat;
+}
+.contact-button-link.icca:hover,
+.contact-button-link.icca:focus,
+.contact-button-link.icca:active {
+  background: url(../img/btn_icca_active.jpg) no-repeat;
+}
+
+.contact-button-link.separated {
+  margin-bottom: 1em;
+}
+
+.show-hide-contact-bar,
+.contact-button-link.show-hide-contact-bar:focus,
+.contact-button-link.show-hide-contact-bar:active {
+  background: transparent;
+  color: #000;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  width: 30px;
+
+  /*==========*/
+  display: none;
+}
+.contact-button-link.show-hide-contact-bar:hover {
+  color: #000;
+  background: #ccc;
+  padding: 0;
+  width: 30px;
+
+  /*==========*/
+  display: none;
+}
